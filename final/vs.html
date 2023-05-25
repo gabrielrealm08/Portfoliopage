@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/Screenshot_2023-05-23_204231-removebg-preview.ico">
+    <link href="vs.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/dbbc3e8cc6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="images/Screenshot_2023-05-23_204231-removebg-preview.ico"
+            class="logo"/>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span>Gabriel</span><br />Oyibo form Nigeria</h1>
+        </div>
+      </div>
+    </div>
+
+
+    
+
+    
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/IMG_4112.JPG" width="315" height="620" />
+          </div>
+
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am a great Web / App Developer, deeply interested in computing, passionate about every new discovery. From communicating with an artificial intelligence to seeing the wonders of the Internet for the first time, computers have left me fascinated with just how much power yet mystery they hold.
+
+              My interest in computing has not been restricted to the classroom. Within the last twelve months I have used the knowledge that I have gained, with the help of my family, to set up my own computer-related business. This has given me a totally new perspective on how certain things function, and how business operates. I am also experienced at providing great customer service, dedicated to assisting customers resolve issues.
+              
+              Furthermore, I am an expert on-
+              <ul>
+                <li>Creating Presentation</li>
+                <li>Content Creating</li>
+                <li>Completing tasks effectively and efficiently</li>
+                <li>Completing tasks effectively and efficiently</li>
+                <li>Web Development</li>
+                <li>Writing</li>
+                <li>Web Design</li>
+                <li>App Development</li>
+                <li>Ability to multitask</li>
+              </ul>
+              I am always interested in forming long-term professional relationships with clients to ensure that every project becomes successful.</p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Web Development</span><br>Building Web Applications/pages</li>
+                  <li><span>App Development</span><br>Building Mobile Applications</li>
+                  <li><span>Clothe Branding</span><br>Designing Standard Clothing Brands</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2022 - Current</span><br>Freelancer at UPWORK INC</li>
+                  <li><span>2020 - Current</span><br>Web Developer</li>
+                  <li><span>2019 - 2021</span><br>Designer for a Clothing Brand</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2023</span><br>IELTS - English proficiency Certificate.</li>
+                  <li><span>2021</span><br>Web / App Development - Certificate from Udemy.</li>
+                  <li><span>2020</span><br>WAEC - Secondary School leaving Certificate.</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>creating webpage layouts, writing code, editing website content, and making adjustments based on client feedback.</p>
+            <a href="https://www.linkedin.com/services/page/8a86843138a01aab49/" target=”_blank”>Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Development</h2>
+            <p> provide end-to-end organization, conceptualization, design, optimization, and maintenance of mobile app projects.</p>
+            <a href="https://www.linkedin.com/services/page/8a86843138a01aab49/" target=”_blank”>Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>Cloth Branding</h2>
+            <p> applying design, aesthetics, clothing construction and natural beauty to clothing and its accessories</p>
+            <a href="https://www.linkedin.com/services/page/8a86843138a01aab49/" target=”_blank”>Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/web.1.jpg" height="450">
+            <div class="layer">
+              <h3>Crypto Web Application</h3>
+              <p>A multi million crypto page for RRMINE GLOBAL company</p>
+              <a href="https://www.rrmglobal.io/index" target=”_blank”><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/app.1.jpg" height="450">
+            <div class="layer">
+              <h3>Timer Mobile Application</h3>
+              <p>A fast and attractive time / clock app</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/branding.1.jpg" height="450">
+            <div class="layer">
+              <h3>Cloth Branding</h3>
+              <p>Designing of various type of clothes</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+
+
+
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> gabrieloyibo730@gmail.com</a> </p>
+            <p><i class="fa-solid fa-phone"></i> +234 (808) 84924195</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/gabriel-oyibo-913632231/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+              <a href="https://www.instagram.com/gabriel_realm/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+              <a href="https://twitter.com/gabriel_realm" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+
+            </div>
+
+            <a href="images/GABRIELOGHENEVOKE_OYIBO_CV_3.pdf" download class="btn btn2">Download CV</a>
+
+          </div>
+          <div class="contact-right">
+            <form name = "submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; Made by Gabriel Oyibo</i></p>
+      </div>
+    </div>
+
+
+
+
+
+
+    <script src="vs.js"></script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyGSpla7M_0Jsidc-S7K-H81yyefbhXDvpFDxl-Wcusq6-7cMGK4af1MbUp9QxWGxs/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.rest()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+  </body>
+</html>
